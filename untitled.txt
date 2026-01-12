@@ -1,0 +1,40 @@
+Naïve Bayes Algorithm Questions
+Q1.What is the Naïve Bayes algorithm?
+ans:* it is supervsed machine learning algorithm 
+    * it is used for classification problems
+    * it is work best for binary classification dataset
+    * it is probilistic model based on baise therom
+    * it is a simplistic approach that assumes independence between features.
+    * basic of conditional probability
+    *it is most used to test data ex:spam or ham
+
+Q2. Why is it called “Naïve”?
+ans:*we are making naive assumption
+    *naive bayes says--->make the naive assumptions that the features are independent or conditional independent.
+* in real life, features are often correlated — so this assumption is not always true, but it simplifies computation.
+
+
+Q3. What are the main types of Naïve Bayes classifiers?
+ans:* gassian naive base:*it is used for continues (normal data)
+    * multinominal naive base:* it is used for discrete data(like frequency of text data)
+    * bernouli naive base:* it is used for binary like(true or false)
+    
+
+
+Q4. State Bayes’ theorem and explain each term.
+ans:p(Ck|x)=p(Ck)*p(x|Ck)/p(x)---(1)------>generalized form
+Where:
+P(Ck|x) → Posterior Probability (probability of class Ck given input x)
+P(x|Ck) → Likelihood (probability of x given class Ck)
+P(Ck) → Prior Probability (probability of class Ck before seeing x)
+P(x) → Evidence or normalization factor (probability of observing x)
+
+Q5. When would you use Naïve Bayes?
+ans:* taxt based or categorical kind of problem statement.
+    * if we want to use Niave bayes for a continues data assumption--->data must be gassian distributed--->then apply gassian Niave bayes...
+    * When the dataset is large and high-dimensional, Naïve Bayes is preferred because it is fast and efficient.
+
+
+
+
+
